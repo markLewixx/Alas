@@ -140,12 +140,12 @@ const Home = () => {
               >
                 Home
               </a>
-              <a
-                href="#menu"
+              <Link
+                to="/menu"
                 className="block px-3 py-2 hover:bg-amber-700 rounded"
               >
                 Menu
-              </a>
+              </Link>
               <a
                 href="#about"
                 className="block px-3 py-2 hover:bg-amber-700 rounded"
@@ -364,7 +364,7 @@ const Home = () => {
               <div>
                 <a
                   href="https://wa.me/+254718455521?text=Hello,%20I'm%20interested%20in%20booking%20a%20space"
-                  className="inline-flex items-center mr-4 px-8 py-3 bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center mr-4 px-8 py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
                 >
                   Talk to us on Whatsapp
                 </a>
@@ -373,7 +373,7 @@ const Home = () => {
                 {" "}
                 <a
                   href="tel:0718455521"
-                  className="inline-flex items-center px-8 py-3 bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center px-8 py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Call Now for Reservations
