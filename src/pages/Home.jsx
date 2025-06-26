@@ -373,7 +373,7 @@ const Home = () => {
                 {" "}
                 <a
                   href="tel:0718455521"
-                  className="inline-flex items-center px-8 py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center text-nowrap px-8 py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Call Now for <br/>Reservations
