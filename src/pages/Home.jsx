@@ -171,7 +171,8 @@ const Home = () => {
 
       {/* Hero Section */}
       <section id="home" className="relative h-screen overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="bg-black h-full w-full absolute z-1 opacity-50"></div>
+        <div className="absolute inset-0  ">
           {heroImages.map((image, index) => (
             <div
               key={index}
@@ -194,7 +195,7 @@ const Home = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-amber-100">
               ALAS AROSTO
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-amber-100">
+            <p className="text-xl md:text-2xl mb-8 text-amber-100 ">
               Culinary Excellence in Every Bite
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -366,7 +367,7 @@ const Home = () => {
                   href="https://wa.me/+254718455521?text=Hello,%20I'm%20interested%20in%20booking%20a%20space"
                   className="inline-flex items-center mr-4 px-8 text-nowrap py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
                 >
-                  Talk to us on <br/> Whatsapp
+                  Talk to us on <br /> Whatsapp
                 </a>
               </div>
               <div>
@@ -376,7 +377,8 @@ const Home = () => {
                   className="inline-flex items-center text-nowrap px-8 py-3 text-xs bg-slate-900 text-amber-300 rounded-full font-semibold hover:bg-slate-800 transition-all duration-300 hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Now for <br/>Reservations
+                  Call Now for <br />
+                  Reservations
                 </a>
               </div>
             </div>
